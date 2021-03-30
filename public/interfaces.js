@@ -1,4 +1,3 @@
-"use strict";
 const me = {
     name: 'haris',
     age: 20,
@@ -16,3 +15,4 @@ const greetPerson = (person) => {
     console.log(`haii ${person.name}`);
 };
 greetPerson(me);
+export {};

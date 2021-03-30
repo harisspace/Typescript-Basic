@@ -1,6 +1,5 @@
-"use strict";
 // access modifier readonly, private, public. Default value is public
-class Invoice {
+export class Invoice {
     constructor(c, d, a) {
         this.client = c;
         this.details = d;

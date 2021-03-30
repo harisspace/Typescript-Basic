@@ -27,3 +27,7 @@ const greetPerson = (person: IsPerson) => {
 }
 
 greetPerson(me)
+
+export default interface HasFormatter {
+  format(): string;
+}
